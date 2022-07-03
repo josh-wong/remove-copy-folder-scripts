@@ -5,7 +5,7 @@ import shutil
 
 # Path: the parent folder where the files to be copied originate from
 # This path must end with a slash.
-path = '<INSERT FULL FOLDER PATH/>' 
+path = '<INSERT FULL FOLDER PATH>/' 
 
 # Source path: where the files to be copied originate from
 src = '<INSERT FULL FOLDER PATH>'
