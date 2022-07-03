@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: copy-bot
-  title: Copy bot
-  description: Copy bot is a script that automates the process of copying files from one folder into another folder.
+  name: copy-folder-scripts
+  title: Copy folder scripts
+  description: The copy folder script can be used to automate the process of copying files from one folder into another folder on Windows.
   tags:
     - automation
     - python
     - script
   annotations:
-    github.com/project-slug: josh-wong/copy-bot
+    github.com/project-slug: josh-wong/copy-folder-scripts
     backstage.io/techdocs-ref: dir:.
 spec:
   type: software

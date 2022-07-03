@@ -1,10 +1,10 @@
-site_name: Copy bot
-site_url: https://josh-wong.github.io/copy-bot/
+site_name: Copy folder scripts
+site_url: https://josh-wong.github.io/copy-folder-scripts
 
 # adds repo details in the top right-hand corner; removing since it's 
 # to have in a multidocs site
-repo_name: josh-wong/copy-bot
-repo_url: https://github.com/josh-wong/copy-bot
+repo_name: josh-wong/copy-folder-scripts
+repo_url: https://github.com/josh-wong/copy-folder-scripts
 # warning: this edit page button does not work; I have prioritized the 
 # multidocs site, so the edit page button on https://josh-wong.github.io 
 # is correct; there doesn't seem to be a way to remove it from one site 
