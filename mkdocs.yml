@@ -41,3 +41,5 @@ theme:
 
 nav:
   - Overview: 'index.md'
+  - Getting started: '01_getting-started.md'
+  - References: '02_references.md'
