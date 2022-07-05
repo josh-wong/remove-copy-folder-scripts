@@ -1,8 +1,8 @@
-# copy-folder and remove-folder scripts
+# remove-folder and copy-folder scripts
 
 ## Overview
 
-The **copy-folder** and **remove-folder** scripts can be used to automate the process of copying files from one folder into another folder on Windows.🤖
+The **remove-folder** and **copy-folder** scripts can be used to automate the process of copying files from one folder into another folder on Windows.🤖
 
 > **Warning**
 > 
