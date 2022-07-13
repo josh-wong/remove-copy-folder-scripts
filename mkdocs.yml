@@ -3,8 +3,8 @@ site_url: https://josh-wong.github.io/remove-copy-folder-scripts/
 
 # Add repo details in the top right-hand corner
 repo_name: josh-wong/remove-copy-folder-scripts
-repo_url: https://github.com/josh-wong/remove-copy-folder-scripts
-edit_uri: blob/main/
+repo_url: https://github.com/josh-wong/remove-copy-folder-scripts/
+edit_uri: blob/main/docs
 
 plugins:
   - search
