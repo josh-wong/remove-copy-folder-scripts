@@ -23,3 +23,9 @@ On your computer, create a text file, then give that file a name that you can ea
 Copy the contents of [copy-folder.py](https://github.com/josh-wong/remove-copy-folder/blob/main/copy-folder.py) into the Python file you just created on your computer.
 
 In the script, replace the instances of "\<INSERT FULL FOLDER PATH\>" as specified in the comments in the script. Make sure you use forward slashes (/) between the folder names in the path.
+
+## Automate these scripts
+
+To automate the `remove-folder` and `copy-folder` scripts, you can add a task for each script in Task Scheduler in Windows. Unfortunately, because multiple environment setups exist depending on how you use Windows, this tutorial does not describe setting up tasks in Task Scheduler.
+
+For details on using Task Scheduler, please see [Task Scheduler for developers](https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page).
