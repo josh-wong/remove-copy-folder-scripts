@@ -8,3 +8,5 @@ By using the **remove-folder** and **copy-folder** scripts and configuring each 
 
 - **remove-folder script:** Deletes the existing folder specified in the script. The folder name you want to delete should match the name of the folder you want to copy in the **copy-folder** script.
 - **copy-folder script:** Copies the folder specified in the script to the location specified in the script.
+
+These scripts can be particularly helpful for when you want to automatically back up folders at a specific time.
