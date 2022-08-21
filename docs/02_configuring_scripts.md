@@ -2,11 +2,11 @@
 
 This document describes how to set up both the remove-folder script and the copy-folder script, and provides a reference for using Task Scheduler in Windows to automate this script.
 
-> **Warning**
-> 
-> For the copy-folder script to work, the destination folder must not include a folder with the same name. Therefore, the purpose of the remove-folder script is to remove a folder with the existing name so that the folder in a different location can be copied.
-> 
-> If you are using GitHub or GitLab, only the changes between files should sync when committing changes to a branch.
+!!! warning
+    
+    For the copy-folder script to work, the destination folder must not include a folder with the same name. Therefore, the purpose of the remove-folder script is to remove a folder with the existing name so that the folder in a different location can be copied.
+    
+    If you are using GitHub or GitLab, only the changes between files should sync when committing changes to a branch.
 
 ## Configure the remove-folder script 
 

@@ -1,8 +1,8 @@
 # remove-folder and copy-folder scripts🤖
 
-> **Warning**
-> 
-> These scripts only run properly if the destination (dest) path doesn't already exist. If the folder with the same name exists, this script will not run properly. 
+!!! warning**
+    
+    These scripts only run properly if the destination (dest) path doesn't already exist. If the folder with the same name exists, this script will not run properly. 
 
 By using the **remove-folder** and **copy-folder** scripts and configuring each script as a task in Task Scheduler in Windows, you can automate the process of copying files from one folder into another folder on Windows.
 
