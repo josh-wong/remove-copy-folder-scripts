@@ -1,6 +1,6 @@
 # remove-folder and copy-folder scripts🤖
 
-!!! warning**
+!!! warning
     
     These scripts only run properly if the destination (dest) path doesn't already exist. If the folder with the same name exists, this script will not run properly. 
 
