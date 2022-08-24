@@ -90,7 +90,7 @@ extra:
 
 nav:
   - Overview: 'index.md'
-  - Getting started: '01_getting-started.md'
+  - Getting started: '01_getting_started.md'
   - Configuring the scripts: '02_configuring_scripts.md'
   - Conclusion: '04_conclusion.md'
   - References: '05_references.md'
