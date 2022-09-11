@@ -620,26 +620,26 @@
 
 
 <h1 id="how-to-configure-the-remove-folder-and-copy-folder-scripts">How to configure the remove-folder and copy-folder scripts<a class="headerlink" href="#how-to-configure-the-remove-folder-and-copy-folder-scripts" title="Permanent link">&para;</a></h1>
-<p>This document describes how to set up both the remove-folder script and the copy-folder script, and provides a reference for using Task Scheduler in Windows to automate this script.</p>
+<p>This document describes how to set up both the <strong>remove-folder</strong> script and the <strong>copy-folder</strong> script, and provides a reference for using Task Scheduler in Windows to automate this script.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>For the copy-folder script to work, the destination folder must not include a folder with the same name. Therefore, the purpose of the remove-folder script is to remove a folder with the existing name so that the folder in a different location can be copied.</p>
+<p>For the <strong>copy-folder</strong> script to work, the destination folder must not include a folder with the same name. Therefore, the purpose of the <strong>remove-folder</strong> script is to remove a folder with the existing name so that the folder in a different location can be copied.</p>
 <p>If you are using GitHub or GitLab, only the changes between files should sync when committing changes to a branch.</p>
 </div>
 <h2 id="configure-the-remove-folder-script">Configure the remove-folder script<a class="headerlink" href="#configure-the-remove-folder-script" title="Permanent link">&para;</a></h2>
 <p>On your computer, create a text file.</p>
 <p>Give that file a name that you can easily recognize and understand in the future. For example, you might name the file "documents-remove-folder.py" if you'll be removing files from your "Documents" folder. Save the file with the extension ".py" so that the file changes from being a text file to a Python file.</p>
-<p>Copy the contents of <a href="https://github.com/josh-wong/remove-copy-folder/blob/main/remove-folder.py">remove-folder.py</a> into the Python file you just created on your computer.</p>
+<p>Copy the contents of <strong><a href="https://github.com/josh-wong/remove-copy-folder/blob/main/remove-folder.py">remove-folder.py</a></strong> into the Python file you just created on your computer.</p>
 <p>In the script, replace the instances of <code>&lt;INSERT FULL FOLDER PATH&gt;</code> as specified in the comments in the script. Make sure you use forward slashes (<code>/</code>) between the folder names in the path.</p>
 <p>Then, save your changes.</p>
 <h2 id="configure-the-copy-folder-script">Configure the copy-folder script<a class="headerlink" href="#configure-the-copy-folder-script" title="Permanent link">&para;</a></h2>
 <p>On your computer, create a text file. </p>
 <p>Give that file a name that you can easily recognize and understand in the future. For example, you might name the file "documents-copy-folder.py" if you'll be copying files from your "Documents" folder. Save the file with the extension ".py" so that the file changes from being a text file to a Python file.</p>
-<p>Copy the contents of <a href="https://github.com/josh-wong/remove-copy-folder/blob/main/copy-folder.py">copy-folder.py</a> into the Python file you just created on your computer.</p>
+<p>Copy the contents of <strong><a href="https://github.com/josh-wong/remove-copy-folder/blob/main/copy-folder.py">copy-folder.py</a></strong> into the Python file you just created on your computer.</p>
 <p>In the script, replace the instances of <code>&lt;INSERT FULL FOLDER PATH&gt;</code> as specified in the comments in the script. Make sure you use forward slashes (<code>/</code>) between the folder names in the path.</p>
 <p>Then, save your changes.</p>
 <h2 id="automate-these-scripts">Automate these scripts<a class="headerlink" href="#automate-these-scripts" title="Permanent link">&para;</a></h2>
-<p>To automate the remove-folder and copy-folder scripts, you can add a task for each script in Task Scheduler in Windows. Unfortunately, because multiple environment setups exist depending on how you use Windows, this tutorial does not describe setting up tasks in Task Scheduler.</p>
+<p>To automate the <strong>remove-folder</strong> and <strong>copy-folder</strong> scripts, you can add a task for each script in Task Scheduler in Windows. Unfortunately, because multiple environment setups exist depending on how you use Windows, this tutorial does not describe setting up tasks in Task Scheduler.</p>
 <p>For details on using Task Scheduler, please see <a href="https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-start-page">Task Scheduler for developers</a>.</p>
 
   
@@ -654,7 +654,7 @@
         <span class="md-icon" title="Date of last update">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
         </span>
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 24, 2022</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 11, 2022</span>
       </span>
     
     
