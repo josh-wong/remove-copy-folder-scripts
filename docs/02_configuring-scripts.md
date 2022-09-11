@@ -16,7 +16,7 @@ Give that file a name that you can easily recognize and understand in the future
 
 Copy the contents of **[remove-folder.py](https://github.com/josh-wong/remove-copy-folder/blob/main/remove-folder.py)** into the Python file you just created on your computer.
 
-In the script, replace the instances of `<INSERT FULL FOLDER PATH>` as specified in the comments in the script. Make sure you use forward slashes (`/`) between the folder names in the path.
+In the script, replace the instances of `<INSERT FULL FOLDER PATH>` as specified in the script. Make sure you use forward slashes (`/`) between the folder names in the path.
 
 Then, save your changes.
 
