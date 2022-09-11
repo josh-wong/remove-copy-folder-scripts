@@ -1,6 +1,6 @@
 # Getting started
 
-Before you set up the remove-folder and copy-folder scripts, make sure you have the prerequisites.
+Before you set up the **remove-folder** and **copy-folder** scripts, make sure you have the prerequisites.
 
 ## Prerequisites
 
