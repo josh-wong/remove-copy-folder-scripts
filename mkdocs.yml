@@ -1,5 +1,6 @@
 site_name: remove-folder and copy-folder scripts
 site_url: https://josh-wong.github.io/remove-copy-folder-scripts/
+site_description: Automate the process of copying files from one folder into another folder on Windows.
 
 # Add repo details in the top right-hand corner
 repo_name: josh-wong/remove-copy-folder-scripts
@@ -21,6 +22,25 @@ plugins:
   - git-committers:
       repository: josh-wong/remove-copy-folder-scripts
       branch: main
+  - rss:
+      abstract_chars_count: 160  # -1 for full content
+      categories:
+        - tags
+      comments_path: "#__comments"
+      date_from_meta:
+        as_creation: "date"
+        as_update: false
+        datetime_format: "%Y-%m-%d"
+      enabled: true
+      feed_ttl: 1440
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      length: 20
+      pretty_print: false
+      match_path: ".*"
+      url_parameters:
+        utm_source: "documentation"
+        utm_medium: "RSS"
+        utm_campaign: "feed-syndication"
 
 markdown_extensions:
   # Add styles for buttons
@@ -102,6 +122,8 @@ nav:
   - Conclusion: '04_conclusion.md'
   - References: '05_references.md'
   - Contributions: '06_contributions.md'
+  - '': ''
+  - 🔶RSS: 'https://josh-wong.github.io/remove-copy-folder-scripts/feed_rss_updated.xml'
   - '': ''
   - '': ''
   - 🏠Home: 'https://josh-wong.github.io'
