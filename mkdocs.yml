@@ -11,6 +11,9 @@ plugins:
   - search
   # Enables TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
   #- techdocs-core
+  - git-committers:
+      repository: josh-wong/remove-copy-folder-scripts
+      branch: main
   # Show the last updated date
   - git-revision-date-localized:
       type: date
@@ -19,9 +22,6 @@ plugins:
       css_style:
         width: "100%"
         height: "300px"
-  - git-committers:
-      repository: josh-wong/remove-copy-folder-scripts
-      branch: main
   - rss:
       abstract_chars_count: 160  # -1 for full content
       categories:
@@ -41,6 +41,8 @@ plugins:
         utm_source: "documentation"
         utm_medium: "RSS"
         utm_campaign: "feed-syndication"
+  # Enable support for social cards (pretty link previews)
+  - social
 
 markdown_extensions:
   # Add styles for buttons
