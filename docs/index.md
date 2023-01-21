@@ -1,4 +1,4 @@
-# remove-folder and copy-folder scripts🤖
+# remove-folder and copy-folder scripts for copying files into a folder in Windows🤖
 
 By using the **remove-folder** and **copy-folder** scripts and configuring each script as a task in Task Scheduler in Windows, you can automate the process of copying files from one folder into another folder on Windows.
 
